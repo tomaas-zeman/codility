@@ -1,0 +1,3 @@
+At the end of each slice, we decide whether its value is going to be carried to the next element's computation based
+on whether the value is negative or positive. If positive, we carry it so it contributes to the next slice,
+otherwise we start from scratch.
